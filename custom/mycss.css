@@ -1,0 +1,20 @@
+body
+{
+    overflow-x:hidden;
+}
+li.nav-item a.nav-link
+{
+    color:white !important;
+}
+.offcanvas
+{
+    width: 200px;
+}
+.accordion-button::after
+{
+    background:none !important;
+}
+footer
+{
+    z-index: 1000 !important;
+}
