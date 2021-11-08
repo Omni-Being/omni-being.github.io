@@ -18,3 +18,7 @@ footer
 {
     z-index: 1000 !important;
 }
+.card-img-top
+{
+    background:#222 !important;
+}
