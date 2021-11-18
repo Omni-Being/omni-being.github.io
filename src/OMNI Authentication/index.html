@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+	<meta charset="utf-8">
+   	<meta name="description" content="OMNI Authentication">
+   	<meta name="keywords" content="00000001">
+   	<meta name="author" content="Iron Boy">
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="icon" type="image/png" href="../../media/icons/S1.png">
+   	<title>OMNI- Sign In</title>
+
+	<link rel="stylesheet" type="text/css" href="../../assets/bootstrap5/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/bootstrap5/icons/bootstrap-icons.css">
+   	<link rel="stylesheet" type="text/css" href="custom packages/css/mystyle.css">
+
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-dark sticky-top p-0">
+	<div class="container-fluid justify-content-end p-0">
+		<a class="navbar-brand" href="">OMNI</a>		
+	</div>
+</nav>
+
+
+
+<form class="p-2">
+	<div class="container shadow my-5 py-3">
+
+		<div class="row p-3">
+			<h1 class="display-4 text-center">IronX</h1>
+		</div>
+	
+		<div class="row p-3">
+			<div class="input-group">
+				<span class="input-group-text bg-light" id="basic-user">
+					<i class="bi bi-person-fill"></i>
+				</span>
+				<input type="text" class="form-control shadow-none" aria-label="Username" aria-describedby="basic-user" id="user_name" required>
+			</div>
+		</div>
+	
+		<div class="row p-3">
+			<div class="input-group">
+				<span class="input-group-text bg-light" id="basic-password">
+					<i class="bi bi-key-fill"></i>
+				</span>
+				<input type="password" class="form-control shadow-none" aria-label="Password" aria-describedby="basic-password" id="user_password" required>
+			</div>
+		</div>
+	
+		<div class="row p-3 m-0">
+			<button type="button" class="btn btn-light shadow-none" onclick="CheckAuthentication();">Sign In</button>
+		</div>
+
+	</div>	
+</form>
+
+
+
+<footer class="container-fluid d-flex flex-wrap justify-content-center align-items-center p-3 m-0 border-top fixed-bottom">
+
+	<div class="col-sm-6 d-flex justify-content-center align-items-center mb-3">
+      	<span class="text-light">&copy; 2022 IRONX Company, Inc.</span>
+    </div>
+
+    <ul class="nav col-sm-6 d-flex justify-content-center align-items-center list-unstyled">
+		<li class="ms-3">
+			<a class="text-light" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+		</li>
+      	<li class="ms-3">
+			<a class="text-light" href="https://www.twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
+		</li>
+      	<li class="ms-3">
+			<a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+		</li>
+		<li class="ms-3">
+			<a class="text-light" href="https://www.google.com/" target="_blank"><i class="bi bi-google"></i></a>
+		</li>
+		<li class="ms-3">
+			<a class="text-light" href="https://www.discord.com/" target="_blank"><i class="bi bi-discord"></i></a>
+		</li>
+    </ul>
+
+</footer>
+
+
+
+<script type="javascript" src="../../assets/bootstrap5/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="custom packages/js/myscript.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+html, body
+{
+    box-sizing: content-box;
+    overflow-x:hidden;
+}
+body
+{
+    animation: carousel 12s infinite normal;
+    color: white;
+}
+.container
+{
+    max-width:400px;
+    background-color: rgba(0,0,0,.5);
+}
+input
+{
+    background-color: transparent !important;
+    color:white !important;
+}
+h1
+{
+    font-family: 'Allura', cursive;
+}
+
+@keyframes carousel
+{
+    0%
+    {
+        background-image: url("../../media/images/RDJ/OMNI RDJ Wall 1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    25%
+    {
+        background-image: url("../../media/images/RDJ/OMNI RDJ Wall 1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    25.01%
+    {
+        background-image: url("../../media/images/RDJ/OMNI RDJ Wall 2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    50%
+    {
+        background-image: url("../../media/images/RDJ/OMNI RDJ Wall 2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    50.01%
+    {
+        background-image: url("../../media/images/RDJ/OMNI RDJ Wall 3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    75%
+    {
+        background-image: url("../../media/images/RDJ/OMNI RDJ Wall 3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    75.01%
+    {
+        background-image: url("../../media/images/RDJ/OMNI RDJ Wall 4.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    100%
+    {
+        background-image: url("../../media/images/RDJ/OMNI RDJ Wall 4.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
