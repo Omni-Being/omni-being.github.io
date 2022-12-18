@@ -1,0 +1,34 @@
+html, body
+{
+    height: 100%;
+    overflow-x: hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    background-image: url("../media/images/Saitama.jpg");
+    background-position:right;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.light-font
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.type-font
+{
+    font-family:'Courier New', Courier, monospace;
+}
+.list-group-item
+{
+    background: none;
+    color: white;
+    border: none;
+}
+.btn
+{
+    background:none;
+    color: white;
+    --bs-btn-border-width: 0px;
+}
