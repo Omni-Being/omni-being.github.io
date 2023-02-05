@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+html, body
+{
+	height: 100%;
+	overflow: auto !important;
+}
+
+
+video.bg-video
+{
+	position: fixed;
+	top:0;
+	left:0;
+	width: auto;
+	height: auto;
+}
+
+
+.container-fluid, .row
+{
+	position: relative;
+	height: 100%;
+  	width: 100%;
+}
+
+
+.trans-bg
+{
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.img-thumbnail
+{
+	height: 200px;
+	width: auto;
+}

@@ -1,2 +1,2 @@
-# omni-being.github.io
+# OMNI BEING
 Welcome To OMNI World.
