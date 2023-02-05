@@ -11,10 +11,14 @@ html, body
 video.bg-video
 {
 	position: fixed;
+	object-fit: cover;
 	top:0;
 	left:0;
-	width: auto;
-	height: auto;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	width: 100vw;
+	height: 100vh;
 }
 
 
@@ -28,7 +32,7 @@ video.bg-video
 
 .trans-bg
 {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.8);
 }
 
 
