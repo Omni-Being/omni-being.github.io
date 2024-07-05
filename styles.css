@@ -1,24 +1,29 @@
 @charset "UTF-8";
+
 @font-face
 {
 	font-family: Cabana;
 	src: url(assets/fonts/Cabana-Regular.otf);
 }
+
 @font-face
 {
 	font-family: FoxCat;
 	src: url(assets/fonts/Fox\ Cat.ttf);
 }
+
 @font-face
 {
 	font-family: BrilliantSign;
 	src: url(assets/fonts/Brilliant\ signature.otf);
 }
+
 html, body
 {
 	height: 100%;
 	overflow: auto !important;
 }
+
 video.bg-video
 {
 	width: 100%;
@@ -33,6 +38,7 @@ video.bg-video
 	padding: 0;
 	margin: 0;
 }
+
 .img-thumb
 {
 	height: 12.5rem;
@@ -41,6 +47,7 @@ video.bg-video
 	border: 1rem double white;
 	border-radius: 50%;
 }
+
 .h1-title
 {
 	font-family: Cabana;
@@ -49,6 +56,7 @@ video.bg-video
 	letter-spacing: 1rem;
 	text-shadow: .2rem .2rem 0 rgba(0,0,0,.2), .2rem -.2rem 0 rgba(0,0,0,.4), -.2rem -.2rem 0 rgba(0,0,0,.6), -.2rem .2rem 0 rgba(0,0,0,.8);
 }
+
 .h3-title
 {
 	font-family: FoxCat;
@@ -56,14 +64,22 @@ video.bg-video
 	color: white;
   	text-shadow: .2rem .2rem .5rem rgb(0,0,0), 0 .1rem .2rem rgb(0,0,0);
 }
+
 .custom-bg
 {
 	background-color: rgba(0,0,0,.3);
 	border-radius: 1rem;
 }
+
 .main-desc
 {
 	font-family: FoxCat;
 	font-size: 2rem;
 	color: white;
+}
+
+.contact-card
+{
+	background: none !important;
+	border: none !important;
 }
